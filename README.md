@@ -26,9 +26,11 @@ Utilizando arquitetura MVC
 - Execute na pasta root:
 > npm install
 * **Crie um arquivo '.env' na pasta root, com o seguinte conteúdo de configurações:**
-DB_USER=Seu usuário na sua database MongoDB Atlas
-DB_PASS=Sua senha na sua database MongoDB Atlas
-APP_PORT=Porta para rodar a aplicação
+> DB_USER=Seu usuário na sua database MongoDB Atlas
+> 
+> DB_PASS=Sua senha na sua database MongoDB Atlas
+> 
+> APP_PORT=Porta para rodar a aplicação
 
 - **No arquivo config/default.ts:**
 Troque o valor de ***dbUri*** para a string com a conexão da sua database MongoDB Atlas, substituindo o username e o password pelas variáveis ***dbUser*** e ***dbPassword**.
