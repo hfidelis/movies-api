@@ -33,7 +33,7 @@ Utilizando arquitetura MVC
 > APP_PORT=Porta para rodar a aplicação
 
 - **No arquivo config/default.ts:**
-Troque o valor de ***dbUri*** para a string com a conexão da sua database MongoDB Atlas, substituindo o username e o password pelas variáveis ***dbUser*** e ***dbPassword**.
+Troque o valor de ***dbUri*** para a string com a conexão da sua database MongoDB Atlas, substituindo o username e o password pelas variáveis ***dbUser*** e ***dbPassword***.
 
 > Ex: ***dbUri:*** `mongodb+srv://${dbUser}:${dbPassword}@hfidelis-api-rest.cvmr4ps.mongodb.net/hfidelisDB?retryWrites=true&w=majority`
 - **Execute na pasta raíz o script de desenvolvimento setado no package.json:**
